@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Zack's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body id="body">
+    <div id="floating-searchbar" class="floating-searchbar">
+      <div id="floating-searchbar-box" class="floating-searchbar-box">
+        <input id="searchInput" type="text" placeholder="Search">
+      </div>
+    </div>
+
+    <div id="loader" class="loader">
+      <img src="assets/img/loader.gif">
+    </div>
+
+    <button id="scrollToTopBtn" title="Scroll to top">▲</button>
+
+    <header class="header">
+      <div class="header-logo">
+        <img src="assets/img/logo_transparent.png" alt="Genshin Impact Logo">
+      </div>
+      <div class="header-navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+      <div class="header-searchbar">
+        <div id="searchbar" class="searchbar">
+          <input id="searchInputBtn" type="text" placeholder="Search articles by keyword" readonly>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <div class="author">
+          <div class="author-header">
+            <span>About Creator</span>
+          </div>
+          <div class="author-body">
+            <img src="assets/img/creator_photo.png" alt="Dzakwan Dawsie">
+            <span class="author-body-name">Zackone</span>
+            <span class="author-body-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat dui massa, sit amet pellentesque elit ornare in. Cras quis mauris a nisl tincidunt elementum id non tellus. Aenean pellentesque.</span>
+          </div>
+        </div>
+
+        <div class="popular-topic">
+          <div class="popular-topic-header">
+            <span>Popular Topics</span>
+          </div>
+
+          <div id="popular-topic" class="popular-topic-body">
+            <!-- Popular topics will loaded dynamically using main.js -->
+            
+          </div>
+        </div>
+      </aside>
+
+      <div id="content">
+        <div id="content-body">
+          <!-- Pre loaded articles  -->
+          <article class="article" style="text-align: center;">
+            <h1 style="color: var(--color-level-text);">Trying to fetch contents . . .</h1>
+          </article>
+
+          <!-- Articles will loaded dynamically using main.js -->
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <span>2022 | Created by <a href="http://dzakwandawsie.github.io" target="_blank" title="Dzakwan Dawise Dicoding's Profile">Dzakwan Dawsie</a> &nbsp;</span>
+        <a href="https://github.com/DzakwanDawsie" target="_blank" title="Dzakwan Dawsie's Github">
+          <img src="assets/img/github.png">
+          <span>&nbsp;Github</span>
+        </a>
+      </div>
+    </footer>
+
+    <script src="assets/js/articles.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
