@@ -1,5 +1,5 @@
 # Simple Blog HTML
-This is a simple blog built with HTML + CSS + JS (Without any framework)
+This is a simple blog built with HTML + CSS + JS (Without any frameworks)
 
 ## Features
 * Dynamically articles search with floating search bar
